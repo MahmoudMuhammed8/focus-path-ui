@@ -1,0 +1,26 @@
+.dashboard {
+  max-inline-size: 800px;
+  margin-inline: auto;
+  padding-block: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+.task-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.task-card {
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* High priority gets a blue/black vibe as you prefer */
+.high { border-inline-start: 5px solid #007bff; background-color: #f0f7ff; }
+.medium { border-inline-start: 5px solid #ffc107; }
+.low { border-inline-start: 5px solid #28a745; }
