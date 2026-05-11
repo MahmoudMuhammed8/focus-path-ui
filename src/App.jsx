@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     // Fetch data from your local Node.js server
-    axios.get('http://localhost:5000/api/tasks')
+    axios.get('https://focus-path-api.vercel.app/api/tasks')
       .then(response => {
         setTasks(response.data);
       })
